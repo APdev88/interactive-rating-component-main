@@ -1,0 +1,23 @@
+.btn {
+  cursor: pointer;
+  background-color: $primary;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 20px;
+  color: $white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transition-duration: 0.3s;
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+
+.button.error {
+  border: 2px solid #f00;
+}

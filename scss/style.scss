@@ -1,0 +1,133 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: $very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+.container {
+  background: $dark-blue;
+  height: 410px;
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+
+  &.hidden {
+    display: none;
+  }
+
+  img {
+    background-color: darken($medium-grey, 30%);
+    border-radius: 100%;
+    padding: 15px;
+    width: 50px;
+  }
+
+  h1 {
+    color: $white;
+  }
+
+  p {
+    color: $light-grey;
+    font-size: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      cursor: pointer;
+      border-radius: 100%;
+      background-color: darken($medium-grey, 30%);
+      color: $light-grey;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition-duration: 0.3s;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+        transform: scale(1.1);
+      }
+
+      &:focus {
+        background-color: $light-grey;
+        color: $white;
+      }
+    }
+  }
+}
+
+.submitted {
+  background: $dark-blue;
+  height: 410px;
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &.show {
+    display: none;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+
+  #return {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    width: 32px;
+    color: $primary;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  #message {
+    color: $primary;
+    background-color: darken($medium-grey, 30%);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  h2 {
+    color: $white;
+  }
+
+  p {
+    color: $light-grey;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@import "buttons";
+@import "utilities";
+@import "mobile";

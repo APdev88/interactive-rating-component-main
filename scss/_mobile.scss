@@ -1,0 +1,28 @@
+@media (max-width: 375px) {
+  .container {
+    margin: 20px;
+
+    #star-img {
+      width: 50px;
+    }
+
+    h1 {
+      font-size: 22px;
+    }
+
+    .buttons {
+      span {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+
+  .submitted {
+    margin: 20px;
+
+    img {
+      width: 50%;
+    }
+  }
+}
