@@ -21,7 +21,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: [https://interactive-rating-component-main-ap.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://interactive-rating-component-main-ap.netlify.app/)
 
 ## My process
 
