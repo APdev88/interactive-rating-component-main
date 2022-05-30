@@ -16,7 +16,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![](./video/interactive-video.webm)
+![](./design/interactive-desktop.png)
+![](./design/thanks-desktop.png)
+![](./design/interactive-mobile.png)
 
 ### Links
 
