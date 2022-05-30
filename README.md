@@ -18,7 +18,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ![](./design/interactive-desktop.png)
 ![](./design/thanks-desktop.png)
-![](./design/interactive-mobile.png)
 
 ### Links
 
